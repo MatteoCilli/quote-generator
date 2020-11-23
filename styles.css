@@ -1,0 +1,176 @@
+@font-face {
+    font-family: 'VT323';
+    src: url(font/VT323-Regular.ttf);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #212c2c;
+    ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 25px;
+    font-family: 'VT323';
+    color: #35ecb1;
+    text-shadow: 0px 0px 1px #35ecb1, 0px 0px 8px #35ecb1;
+    text-decoration: none;
+    outline: 0 none;
+    height: 85vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    width: 95%;
+    max-width: 1100px;
+    margin: auto;
+    padding: 5px;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-size: 2.7rem;
+    height: 48px;
+}
+
+#reagan-btn {
+    font-family: 'VT323';
+    color: #26ffea;
+    text-shadow: 0px 0px 4px #35ecb1, 0px 0px 20px #35ecb1;
+    font-size: 32px;
+    width: 8em;
+    max-height: 75px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px 0;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 2px solid transparent;
+    transition: 0.5s;
+}
+
+#reagan-btn:hover {
+    background-color: rgba(38, 255, 234, 0.1);
+}
+
+#load-quote:focus {
+    outline: none;
+}
+
+.main-container {
+    width: 90%;
+    max-width: 1024px;
+    height: 100%;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    padding: 25px 25px 15px 55px;
+    border-radius: 6px;
+}
+
+.reagan-box {
+    line-height: 0.5;
+    font-size: 1.5rem;
+}
+
+.quote {
+    font-weight: 400;
+    line-height: 1.2;
+    position: relative;
+    margin: 0;
+    margin-left: 10px;
+    color: #48c29e;
+    font-size: 2.5rem;
+}
+
+.quote:before,
+.quote:after {
+    font-size: 3.5rem;
+    line-height: 2.5rem;
+    position: absolute;
+}
+
+.quote:before {
+    content: "“";
+    top: 0.1em;
+    left: -0.5em;
+}
+
+.quote:after {
+    content: "”";
+    bottom: -0.1em;
+    margin-left: 0.1em;
+    position: absolute;
+}
+
+.source {
+    font-size: 1.4rem;
+    letter-spacing: 0.05em;
+    line-height: 1.1;
+    text-align: right;
+    margin-right: 4em;
+}
+
+.source:before {
+    content: "—";
+}
+
+.citation {
+    font-style: italic;
+}
+
+.citation:before {
+    content: ", ";
+    font-style: normal;
+}
+
+.year:before {
+    content: ", ";
+    font-style: normal;
+}
+
+
+/*
+@media (min-width: 768px) {
+    body {
+        padding: 25px;
+    }
+    header {
+        margin-bottom: 50px;
+    }
+    h1 {
+        font-size: 3.5rem;
+        height: 73px;
+        margin-top: 20px;
+        margin-right: 5px;
+    }
+    .reagan-quote {
+        font-size: 1.5rem;
+    }
+    .main-container {
+        padding: 25px 25px 15px 55px;
+        background: rgba(0, 0, 0, 0.1);
+        border-radius: 0 4px 4px 0;
+        height: 100%;
+    }
+    .quote {
+        font-size: 4rem;
+    }
+    .quote:before,
+    .quote:after {
+        font-size: 6rem;
+    }
+    .quote:before {
+        top: 0.25em;
+    }
+    .quote:after {
+        bottom: 0.1em;
+    }
+    .source {
+        font-size: 1.25rem;
+    }
+}
+*/
