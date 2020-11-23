@@ -106,7 +106,7 @@ h1 {
 }
 
 .source {
-    font-size: 1.7rem;
+    font-size: 1.9rem;
     letter-spacing: 0.05em;
     line-height: 1.1;
     text-align: right;
@@ -130,6 +130,12 @@ h1 {
 .year:before {
     content: ", ";
     font-style: normal;
+}
+
+@media (min-width: 966px) {
+    .main-container {
+        min-width: 1124px;
+    }
 }
 
 @media (max-width: 965px) {
