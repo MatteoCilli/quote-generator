@@ -61,19 +61,18 @@ h1 {
 }
 
 .main-container {
-    width: 90%;
     max-width: 1024px;
-    height: 100%;
     margin: auto;
     background: rgba(0, 0, 0, 0.1);
     border-radius: 6px;
-    padding: 25px 25px 15px 55px;
+    padding: 44px 25px 15px 55px;
     border-radius: 6px;
 }
 
 .reagan-box {
     line-height: 0.5;
     font-size: 1.5rem;
+    height: 320px;
 }
 
 .quote {
@@ -107,11 +106,12 @@ h1 {
 }
 
 .source {
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     letter-spacing: 0.05em;
     line-height: 1.1;
     text-align: right;
     margin-right: 4em;
+    margin-top: 2em;
 }
 
 .source:before {
@@ -132,45 +132,68 @@ h1 {
     font-style: normal;
 }
 
-
-/*
-@media (min-width: 768px) {
-    body {
-        padding: 25px;
-    }
-    header {
-        margin-bottom: 50px;
-    }
+@media (max-width: 965px) {
     h1 {
-        font-size: 3.5rem;
-        height: 73px;
-        margin-top: 20px;
-        margin-right: 5px;
+        font-size: 2.3rem;
+        height: 48px;
     }
-    .reagan-quote {
-        font-size: 1.5rem;
-    }
-    .main-container {
-        padding: 25px 25px 15px 55px;
-        background: rgba(0, 0, 0, 0.1);
-        border-radius: 0 4px 4px 0;
-        height: 100%;
+    #reagan-btn {
+        font-size: 23px;
     }
     .quote {
-        font-size: 4rem;
-    }
-    .quote:before,
-    .quote:after {
-        font-size: 6rem;
-    }
-    .quote:before {
-        top: 0.25em;
-    }
-    .quote:after {
-        bottom: 0.1em;
-    }
-    .source {
-        font-size: 1.25rem;
+        font-size: 2.2rem;
     }
 }
-*/
+
+@media (max-width: 778px) {
+    .main-container {
+        height: 80%;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    #reagan-btn {
+        font-size: 22px;
+    }
+    .quote {
+        font-size: 1.9rem;
+    }
+    .source {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 519px) {
+    h1 {
+        font-size: 1.7rem;
+    }
+    #reagan-btn {
+        font-size: 18px;
+    }
+    .quote {
+        font-size: 1.7rem;
+    }
+    .source {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 422px) {
+    h1 {
+        font-size: 1.6rem;
+    }
+    #reagan-btn {
+        font-size: 16px;
+    }
+    .quote {
+        font-size: 1.5rem;
+    }
+    .source {
+        font-size: 1.1rem;
+    }
+    .quote::after {
+        bottom: -0.3em;
+        margin-left: 0.4em;
+        font-size: 3.1rem;
+    }
+}
