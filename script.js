@@ -1,6 +1,5 @@
 $(document).ready(function() {
     var quoteList = [
-        { source: "Ronald Reagan", citation: "POTUS", year: "1981", quote: "Here\'s my strategy on the Cold War: we win, they lose." },
         { source: "George Marshall", citation: "CIA", year: "1947", quote: "Although the shooting war is over, we are in the midst of a cold war which is getting warmer." },
         { source: "Winston Churchill", citation: "Former Prime Minister of the UK", year: "1946", quote: "A shadow has fallen upon the scenes so lately lighted by the Allied victory…. From Stettin in the Baltic to Trieste in the Adriatic an iron curtain has descended across the Continent." },
         { source: "Unknown", citation: "Foreign Affairs", year: "1947", quote: "We may be likened to two scorpions in a bottle, each capable of killing the other, but only at the risk of his own life." },

@@ -132,12 +132,6 @@ h1 {
     font-style: normal;
 }
 
-@media (min-width: 966px) {
-    .main-container {
-        min-width: 1124px;
-    }
-}
-
 @media (max-width: 965px) {
     h1 {
         font-size: 2.3rem;
